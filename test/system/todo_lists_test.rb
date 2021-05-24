@@ -16,7 +16,7 @@ class TodoListsTest < ApplicationSystemTestCase
 
     fill_in "Description", with: @todo_list.description
     fill_in "Title", with: @todo_list.title
-    click_on "Create Todo list"
+    click_on "Create1 Todo list"
 
     assert_text "Todo list was successfully created"
     click_on "Back"
